@@ -45,7 +45,7 @@
     <jar destfile="${jar.file}">
       <fileset dir="${prod-dest}"/>
       <manifest>
-        <attribute name="Main-Class" value="net.kanstren.Main"/>
+        <attribute name="Main-Class" value="net.kanstren.yaes.Main"/>
       </manifest>
       <!--file name="es_importer.properties"/-->
     </jar>

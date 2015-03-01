@@ -1,4 +1,4 @@
-package net.kanstren;
+package net.kanstren.yaes;
 
 import java.io.File;
 import java.io.FileInputStream;
