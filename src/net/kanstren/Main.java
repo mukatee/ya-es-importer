@@ -1,4 +1,4 @@
-package jdbcimporter;
+package net.kanstren;
 
 import java.io.File;
 import java.io.FileInputStream;

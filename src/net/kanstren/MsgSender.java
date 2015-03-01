@@ -1,4 +1,4 @@
-package jdbcimporter;
+package net.kanstren;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -35,15 +35,11 @@ public class MsgSender {
 //      log.debug("Response Code : " + responseCode);
 
     StringBuilder response = new StringBuilder();
-    try (InputStream in = conn.getInputStream()) {
-      BufferedReader bin = new BufferedReader(new InputStreamReader(in));
-      String line = "";
-      while ((line = bin.readLine()) != null) {
-        response.append(line);
-      }
-    } catch (IOException e) {
-      e.printStackTrace();
-      return null;
+    InputStream in = conn.getInputStream();
+    BufferedReader bin = new BufferedReader(new InputStreamReader(in));
+    String line = "";
+    while ((line = bin.readLine()) != null) {
+      response.append(line);
     }
     conn.disconnect();
     //print result
