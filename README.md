@@ -1,6 +1,3 @@
-# ya-es-importer
-yet another elasticsearch importer (for sql db)
-
 Yet Another Elasticsearch Importer
 ==================================
 
