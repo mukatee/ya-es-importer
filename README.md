@@ -15,6 +15,10 @@ Check the [es_importer.properties](https://github.com/mukatee/yaes-importer/blob
 
 Start the program with 'java -cp "./yaes-vx.y.z.jar:your-db.driver.jar" net.kanstren.yaes.Main'.
 
+For example:
+
+java -cp "./yaes-v0.1.0.jar:mariadb-java-client-1.1.8.jar" net.kanstren.yaes.Main
+
 License
 -------
 
