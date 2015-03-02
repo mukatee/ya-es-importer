@@ -145,7 +145,7 @@ public class Main {
             value += "\""+rs.getString(i)+"\"";
             break;
         }
-        line += names[i]+":";
+        line += "\""+names[i]+"\":";
         line += value;
         if (i <= (count -1)) {
           line += ", ";
